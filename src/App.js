@@ -1,3 +1,9 @@
+import { DashboardLayout } from "./module/DashBoardLayout";
+
+
+
 export function App() {
-    return <h1>Hello world!</h1>;
-  }
+    return <DashboardLayout>
+       123
+    </DashboardLayout>
+}
