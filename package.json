@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "parcel": "^2.7.0",
+    "parcel-bundler": "^1.12.5",
     "process": "^0.11.10"
   },
   "dependencies": {
@@ -14,6 +15,6 @@
   },
   "scripts": {
     "start_server": "node server/index.js",
-     "start":"parcel src/index.html"
+    "start": "parcel src/index.html"
   }
 }

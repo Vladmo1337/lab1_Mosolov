@@ -1,10 +1,14 @@
-import styled from '@emotion/styled'
-
-const FooterStyled = styled.div
-    `color: white; background-color: blue;`
-
-export const Footer = () => {
-    return (<div>
-        <FooterStyled>The Footer</FooterStyled>
-    </div>)
+export default function Footer() {
+    return (
+        <div
+            style={{
+                background: "#EF5965",
+                textAlign: "center",
+                fontSize: 40,
+                height: 50,
+            }}
+        >
+           Не помню пароль
+        </div>
+    );
 }
